@@ -1,11 +1,15 @@
 import styled from '@emotion/styled';
 import { Form, Field, ErrorMessage } from 'formik';
 
+
+export const LoginWrapper = styled.div`
+margin-top: 55px;
+`;
+
 export const FormWrapp = styled(Form)`
     display: flex;
     align-items: center;
     flex-direction: column;
-
 `;
 
 export const Input = styled(Field)`

@@ -20,7 +20,7 @@ export const ContactListItem = styled.li`
   align-items: center;
   width: 140px;
   height: 150px;
-  border: 1px solid #39bb96;
+  border: 1px solid #6f21a0;
   padding: 10px;
   text-align: center;
   border-radius: 5px;
@@ -30,13 +30,14 @@ export const ContactListHeader = styled.h2`
 
   margin: 0;
   margin-bottom: auto;
+  color: #cfbed9;
 `;
 
 export const ContactListText = styled.p`
 
   margin: 0;
   font-weight: 600;
-  color: #0b5e18;
+  color: #cfbed9;
 `;
 
 export const ContactListButton = styled.button`

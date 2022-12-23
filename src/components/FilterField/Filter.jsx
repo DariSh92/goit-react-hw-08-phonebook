@@ -1,14 +1,15 @@
 import { FilterWrap, FilterInput, FilterLabel } from 'components/FilterField/Filter.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { getFilter } from 'redux/selectors';
-import { filterChange } from 'redux/phonebookSlice';
+import { selectFilter } from 'redux/contacts/selectors';
+import { filterChange } from 'redux/contacts/contactsSlice';
 
 export const Filter = () => {
 
     const dispatch = useDispatch();
-    const { filter } = useSelector(getFilter);
+    const filter = useSelector(selectFilter);
+    console.log(filter);
 
-    const onFilterChange = (e) => {
+    const onFilterChange = e => {
         dispatch(filterChange(e.currentTarget.value));
         
   };
@@ -26,8 +27,3 @@ export const Filter = () => {
     );
     
 };
-
-// Filter.propTypes = {
-//   value: PropTypes.string.isRequired,
-//   onFilterChange: PropTypes.func.isRequired,
-// };

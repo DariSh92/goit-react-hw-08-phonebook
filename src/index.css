@@ -2,14 +2,23 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+      background: linear-gradient(rgba(0, 0, 0, 0.627), rgba(0, 0, 0, 0.627)) center center / cover no-repeat fixed, url('https://img5.goodfon.ru/original/1920x1280/1/e3/fon-abstraktnye-fony-tekstury.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Unbounded', cursive;
+    
 }
